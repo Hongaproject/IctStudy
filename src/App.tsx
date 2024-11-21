@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   const c = ["a", "b", "c"];
   const [text, setText] = useState<string>("");
+  console.log("브랜치");
   return (
     <div className="App">
       <header className="App-header">
